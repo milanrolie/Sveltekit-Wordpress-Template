@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  // Background color is needed for the mix-blend-mode in the navigation to work properly.
+  background-color: var(--light);
+  quotes: "“" "”" "‘" "’";
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-primary);
+}
+
+a,
+button {
+  text-decoration: none;
+  cursor: pointer;
+  color: currentColor;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  overflow: hidden;
+  margin: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+img[data-fadeIn="true"] {
+  transform: scale(1.05);
+  filter: blur(50px);
+}
+
+video[data-fadeIn="true"] {
+  transform: scale(1.05);
+  filter: blur(50px);
+}
+
+section {
+  background-color: var(--light);
+}
+
+.hide {
+  display: none !important;
+}
+
+.desktop-hide {
+  display: none !important;
+}
+
+#sentence,
+#sentenceScroll {
+  display: block;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); // Modified line
+  transform: translateY(3rem);
+}
+
+#fadeUp {
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%); // Modified line
+}
+
+@media (max-width: 768px) {
+  .mobile-hide {
+    display: none !important;
+  }
+
+  .desktop-hide {
+    display: block !important;
+  }
+}

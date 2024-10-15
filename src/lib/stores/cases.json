@@ -1,0 +1,83 @@
+{
+  "allCases": [
+    {
+      "title": "Contra productions",
+      "slug": "sternfilms",
+      "tags": ["Deisgn", "Development", "Motion"],
+      "date": "2023",
+      "client": "Sternfilms",
+      "branch": "Culture",
+      "link": "https://www.sternfilms.nl",
+      "introText": "Natroceutics delivers the best available nature-based therapeutics the world’s leading experts have to offer. With the mission to provide the best available integrative medicines and natural therapeutics, Natroceutics approached us to create their brand home.",
+      "featuredImage": "/CaseImages/Sternfilms/sternfilms-mockup.jpg",
+      "hoverImage": "https://akoyamockups.com/cdn/shop/files/Macbook_Image_01.jpg?v=1701685875&width=1100",
+      "images": [
+        "/CaseImages/Sternfilms/phoneOnChair.jpeg",
+        "url_to_image1_3.jpg",
+        "/CaseImages/Sternfilms/Sternfilms mockup video.webm",
+        "url_to_image1_4.jpg"
+      ],
+      "video": "/CaseImages/Sternfilms/Sternfilms mockup video.webm"
+    },
+    {
+      "title": "Offshore",
+      "slug": "offshore",
+      "tags": ["design", "development", "motion"],
+      "date": "2023",
+      "client": "Hoogvliet",
+      "branch": "Branch Name 2",
+      "link": "https://www.hoogvlietoffshore.nl",
+
+      "introText": "Offshore is a project for Hoogvliet. The project is about the offshore industry and the services Hoogvliet provides for this industry. The project is a combination of a design with development and a bit of motion.",
+      "featuredImage": "/CaseImages/Offshore/container.jpeg",
+      "hoverImage": "https://akoyamockups.com/cdn/shop/files/Macbook_Image_01.jpg?v=1701685875&width=1100",
+      "images": [
+        "/CaseImages/Offshore/concrete-iphone.webp",
+        "/CaseImages/Offshore/Offshore.jpg",
+        "/CaseImages/Offshore/offshore.webm",
+        "/CaseImages/Offshore/Offshore-with-background.png"
+      ],
+      "video": "/CaseImages/Offshore/offshore.webm"
+    },
+    {
+      "title": "Hoogvliet Zwijndrecht",
+      "slug": "hoogvliet-zwijndrecht",
+      "tags": ["Design", "Development", "Motion"],
+      "date": "2023",
+      "client": "Hoogvliet",
+      "branch": "Branch Name 2",
+      "link": "https://www.hoogvlietzwijndrecht.nl",
+      "introText": "Hoogvliet is a construction company in Zwijndrecht. I've created a website for them to showcase their projects and services. The website is a combination of design and development. ",
+      "featuredImage": "/CaseImages/Hoogvliet/iphone.webp",
+      "hoverImage": "https://akoyamockups.com/cdn/shop/files/Macbook_Image_01.jpg?v=1701685875&width=1100",
+
+      "images": [
+        "/CaseImages/Hoogvliet/macbook.webp",
+        "/CaseVideos/HoogvlietVertical.webm",
+        "/CaseImages/Hoogvliet/Motion mockup.webm",
+        "/CaseImages/Hoogvliet/background image.webp"
+      ],
+      "video": "/CaseVideos/HoogvlietVertical.webm"
+    },
+    {
+      "title": "Agency",
+      "slug": "markk",
+      "tags": ["design", "development", "motion"],
+      "date": "2023",
+      "client": "Markk",
+      "branch": "Agency",
+      "link": "https://www.digitalmarkk.nl",
+
+      "introText": "Markk is a project made by me and my best friend Silver. We started this project in 2023 and it is still in progress. The project is about a digital agency that provides services in design, development and motion.",
+      "featuredImage": "/CaseImages/Markk/iphone-mockup.webp",
+      "hoverImage": "",
+      "images": [
+        "/CaseImages/Markk/Home mockup.jpeg",
+        "/CaseImages/Markk/markk beeldmerk.webm",
+        "/CaseImages/Markk/markk.webm",
+        "/CaseImages/Markk/on-background.png"
+      ],
+      "video": "/CaseImages/Markk/markk.webm"
+    }
+  ]
+}

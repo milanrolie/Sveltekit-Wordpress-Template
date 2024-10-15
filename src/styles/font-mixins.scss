@@ -1,0 +1,22 @@
+@mixin title-huge {
+  font-size: var(--font-size-huge);
+  font-weight: 300;
+  color: var(--dark);
+}
+@mixin title-large {
+  font-size: var(--font-size-large);
+  font-weight: 300;
+  color: var(--dark);
+}
+
+@mixin title-medium {
+  font-size: var(--font-size-medium);
+  font-weight: 300;
+  color: var(--dark);
+}
+
+@mixin title-small {
+  font-size: var(--font-size-small);
+  font-weight: 300;
+  color: var(--dark);
+}

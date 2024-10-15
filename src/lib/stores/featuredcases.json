@@ -1,0 +1,61 @@
+{
+  "featuredCases": [
+    {
+      "title": "Sternfilms",
+      "slug": "case-title-1",
+      "tags": ["tag1", "tag2", "tag3"],
+      "date": "2022",
+      "client": "design / development / motion ",
+      "branch": "Branch Name 1",
+      "introText": "This is the introduction text for Case 1.",
+      "featuredImage": "https://akoyamockups.com/cdn/shop/files/Image_02_1297081b-2b24-48fa-a0f9-5247107aaeda.jpg?v=1697191744&width=1100",
+      "hoverImage": "https://akoyamockups.com/cdn/shop/files/Macbook_Image_01.jpg?v=1701685875&width=1100",
+      "images": [
+        "url_to_image1_1.jpg",
+        "url_to_image1_2.jpg",
+        "url_to_image1_3.jpg",
+        "url_to_image1_4.jpg",
+        "url_to_image1_5.jpg"
+      ],
+      "video": "url_to_video1.mp4"
+    },
+    {
+      "title": "Case Title 2",
+      "slug": "case-title-2",
+      "tags": ["tag1", "tag2", "tag3"],
+      "date": "2022",
+      "client": "Hoogvliet Offshore",
+      "branch": "Branch Name 2",
+      "introText": "This is the introduction text for Case 2.",
+      "featuredImage": "https://akoyamockups.com/cdn/shop/files/Image_02_1297081b-2b24-48fa-a0f9-5247107aaeda.jpg?v=1697191744&width=1100",
+      "hoverImage": "https://akoyamockups.com/cdn/shop/files/Macbook_Image_01.jpg?v=1701685875&width=1100",
+      "images": [
+        "url_to_image2_1.jpg",
+        "url_to_image2_2.jpg",
+        "url_to_image2_3.jpg",
+        "url_to_image2_4.jpg",
+        "url_to_image2_5.jpg"
+      ],
+      "video": "url_to_video2.mp4"
+    },
+    {
+      "title": "Case Title 2",
+      "slug": "case-title-2",
+      "tags": ["tag1", "tag2", "tag3"],
+      "date": "2022",
+      "client": "Hoogvliet Offshore",
+      "branch": "Branch Name 2",
+      "introText": "This is the introduction text for Case 2.",
+      "featuredImage": "https://akoyamockups.com/cdn/shop/files/Image_02_1297081b-2b24-48fa-a0f9-5247107aaeda.jpg?v=1697191744&width=1100",
+      "hoverImage": "https://akoyamockups.com/cdn/shop/files/Macbook_Image_01.jpg?v=1701685875&width=1100",
+      "images": [
+        "url_to_image2_1.jpg",
+        "url_to_image2_2.jpg",
+        "url_to_image2_3.jpg",
+        "url_to_image2_4.jpg",
+        "url_to_image2_5.jpg"
+      ],
+      "video": "url_to_video2.mp4"
+    }
+  ]
+}
