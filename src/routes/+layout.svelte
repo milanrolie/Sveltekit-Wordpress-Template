@@ -5,7 +5,7 @@
   import { currentRoute } from "$lib/stores/store.js";
 
   // import Lenis from "$lib/components/particles/Lenis.svelte";
-  import Navigation from "$lib/components/structures/Navigation.svelte";
+  // import Navigation from "$lib/components/structures/Navigation.svelte";
 
   let pageContainer;
   let links;
@@ -16,7 +16,7 @@
 </script>
 
 <!-- <Lenis /> -->
-<Navigation />
+<!-- <Navigation /> -->
 
 <slot />
 <div id="pageTransition" bind:this={pageContainer}></div>
