@@ -1,7 +1,10 @@
 <script>
   export let data;
   const projects = data.projects.nodes;
+  const page = data.page;
 </script>
+
+<h1>{page.acfPageTitle.title}</h1>
 
 {#each projects as project}
   <a href={`/projects/${project.slug}`}>

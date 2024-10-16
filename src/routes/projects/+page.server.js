@@ -13,12 +13,22 @@ query Projects {
       slug
       title
     }
-  }
+}
+
+    page(id: "projects", idType: URI) {
+      slug
+      content
+      acfPageTitle {
+        title
+        }
+        
+        }
+
 }`;
 
 const graphqlEndpoint = "http://sveltekit-wordpress-template.local/graphql";
 
-async function fetchprojects() {
+async function fetchProjectsAndPage() {
   const response = await fetch(graphqlEndpoint, {
     method: "POST",
     headers: {
@@ -29,14 +39,18 @@ async function fetchprojects() {
 
   const json = await response.json();
   const projects = json.data.projects;
-  return projects;
+  const page = json.data.page;
+  return {
+    projects,
+    page,
+  };
 }
 
 export async function load() {
-  const projects = await fetchprojects();
+  const { projects, page } = await fetchProjectsAndPage();
 
-  console.log(projects.nodes);
   return {
     projects,
+    page,
   };
 }

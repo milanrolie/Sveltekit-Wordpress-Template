@@ -3,4 +3,4 @@
   const about = data.about;
 </script>
 
-<h1>{about.title.title}</h1>
+<h1>{about.acfPageTitle.title}</h1>

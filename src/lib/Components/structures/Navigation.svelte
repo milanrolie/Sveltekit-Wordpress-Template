@@ -1,41 +1,19 @@
 <script>
   import { onMount } from "svelte";
-  import { gql, request } from "graphql-request";
+  import Logo from "$lib/Components/particles/Logo.svelte";
+  import { fetchMenuItems } from "$lib/Data/navigation.js";
 
   let menuItems = [];
 
-  const query = gql`
-    query Navigation {
-      menus {
-        nodes {
-          menuItems {
-            edges {
-              node {
-                id
-                label
-                title
-                url
-                target
-              }
-            }
-          }
-        }
-      }
-    }
-  `;
-
   onMount(async () => {
-    const endpoint = "http://sveltekit-wordpress-template.local/graphql";
-    const data = await request(endpoint, query);
-    menuItems = data.menus.nodes[0].menuItems.edges.map((edge) => edge.node);
-    console.log(menuItems);
+    menuItems = await fetchMenuItems();
   });
 </script>
 
 <nav class="navigation">
   <a class="logo__link" href="/">
     <div class="navigation__logo">
-      <!-- <Logo color="currentColor" width="10rem" /> -->
+      <Logo color="currentColor" width="10rem" />
     </div>
   </a>
   <ul class="navigation__links mobile-hide">

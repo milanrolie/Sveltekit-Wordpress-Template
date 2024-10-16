@@ -17,12 +17,19 @@ const query = `
         }
       }
     }
+    page(id: "posts", idType: URI) {
+      slug
+      content
+      acfPageTitle {
+        title
+      }
+    }
   }
 `;
 
 const graphqlEndpoint = "http://sveltekit-wordpress-template.local/graphql";
 
-async function fetchPosts() {
+async function fetchPostsAndPage() {
   const response = await fetch(graphqlEndpoint, {
     method: "POST",
     headers: {
@@ -33,14 +40,19 @@ async function fetchPosts() {
 
   const json = await response.json();
   const posts = json.data.posts;
-  return posts;
+  const page = json.data.page;
+
+  return {
+    posts,
+    page,
+  };
 }
 
 export async function load() {
-  const posts = await fetchPosts();
+  const { posts, page } = await fetchPostsAndPage();
 
-  console.log(posts.nodes);
   return {
     posts,
+    page,
   };
 }

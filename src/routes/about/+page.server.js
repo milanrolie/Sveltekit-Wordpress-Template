@@ -1,11 +1,11 @@
 const query = `
 query About {
   page(id: "about", idType: URI) {
-    title {
-      title
-    }
     slug
     content
+    acfPageTitle {
+      title
+    }
   }
 }`;
 
@@ -28,7 +28,6 @@ async function fetchhome() {
 export async function load() {
   const about = await fetchhome();
 
-  console.log(about);
   return {
     about,
   };

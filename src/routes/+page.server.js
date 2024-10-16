@@ -1,11 +1,10 @@
 const query = `
 query Home {
   page(id: "home", idType: URI) {
-    title {
+    slug
+   acfPageTitle {
       title
     }
-    slug
-    content
   }
 }`;
 
@@ -28,7 +27,6 @@ async function fetchhome() {
 export async function load() {
   const home = await fetchhome();
 
-  console.log(home);
   return {
     home,
   };
