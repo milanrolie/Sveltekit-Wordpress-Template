@@ -5,7 +5,7 @@
   import { currentRoute } from "$lib/stores/store.js";
 
   import Lenis from "$lib/components/particles/Lenis.svelte";
-  import Navigation from "../lib/Components/structures/Navigation.svelte";
+  import Navigation from "../lib/components/structures/Navigation.svelte";
 
   let pageContainer;
   let links;
