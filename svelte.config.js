@@ -1,12 +1,12 @@
-import adapterNetlify from "@sveltejs/adapter-netlify";
+// svelte.config.js
+import adapterAuto from "@sveltejs/adapter-auto";
 
 export default {
   kit: {
-    adapter: adapterNetlify(),
-
-    // Optional: If you want to prerender all static pages during the build process
-    prerender: {
-      entries: ["*"], // This will prerender all static routes
-    },
+    adapter: adapterAuto({
+      pages: "build",
+      assets: "build",
+      fallback: null,
+    }),
   },
 };
