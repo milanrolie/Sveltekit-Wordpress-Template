@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "build"  # This is where the build output is located
+
+[functions]
+  directory = "netlify/functions"  # Netlify functions location (used by SvelteKit for serverless functions)
+
+[context.production.environment]
+  NODE_ENV = "production"  # Ensure correct environment settings during build
