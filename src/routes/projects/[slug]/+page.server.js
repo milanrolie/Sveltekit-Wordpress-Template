@@ -1,3 +1,5 @@
+export const prerender = true;
+
 const query = `
  query getProjectBySlug($slug: ID!) {
     project(id: $slug, idType: SLUG) {

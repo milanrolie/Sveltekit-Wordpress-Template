@@ -1,3 +1,5 @@
+export const prerender = true;
+
 const query = `
 query Projects {
   projects {

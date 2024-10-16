@@ -4,8 +4,8 @@
   import { afterUpdate, onMount } from "svelte";
   import { currentRoute } from "$lib/stores/store.js";
 
-  // import Lenis from "$lib/components/particles/Lenis.svelte";
-  // import Navigation from "$lib/components/structures/Navigation.svelte";
+  import Lenis from "$lib/components/particles/Lenis.svelte";
+  import Navigation from "$lib/components/structures/Navigation.svelte";
 
   let pageContainer;
   let links;
@@ -15,8 +15,8 @@
   function handleRouteChange() {}
 </script>
 
-<!-- <Lenis /> -->
-<!-- <Navigation /> -->
+<Lenis />
+<Navigation />
 
 <slot />
 <div id="pageTransition" bind:this={pageContainer}></div>

@@ -1,4 +1,5 @@
 // src/routes/posts/[slug]/+page.server.js
+export const prerender = true;
 
 const query = `
   query getPostBySlug($slug: ID!) {
